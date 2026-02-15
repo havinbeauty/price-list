@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لیست قیمت محصولات</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; background-color: #f8f8f8; margin: 0; padding: 0; }
+        header { background: #ff6f91; color: white; padding: 20px; text-align: center; font-size: 22px; }
+        .container { padding: 20px; }
+        .section { background: white; margin-bottom: 20px; padding: 15px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .section h2 { margin-top: 0; color: #ff6f91; }
+        ul { list-style: none; padding: 0; }
+        li { padding: 8px 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; }
+        li:last-child { border-bottom: none; }
+        .footer { text-align: center; padding: 20px; font-size: 14px; color: #777; }
+        .highlight { color: #ff3b6b; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<header>
+    لیست قیمت محصولات فروشگاه ما 💖
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>💄 محصولات آرایشی</h2>
+        <ul>
+            <li><span>کرم پودر فارماسی</span> <span class="highlight">395 تومان</span></li>
+            <li><span>ژل ابرو بل دیاموند</span> <span class="highlight">185 تومان</span></li>
+            <li><span>پرایمر رنگین کمانی توز</span> <span class="highlight">220 تومان</span></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🧴 مراقبت پوست</h2>
+        <ul>
+            <li><span>ژل شستشو سیمپل</span> <span class="highlight">530 تومان</span></li>
+            <li><span>آبرسان سیمپل</span> <span class="highlight">335 تومان</span></li>
+            <li><span>ضد آفتاب کلاژن SPF90</span> <span class="highlight">355 تومان</span></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🛁 محصولات بدن</h2>
+        <ul>
+            <li><span>کوکتل پا</span> <span class="highlight">--- تومان</span></li>
+            <li><span>اسپری بدن پرستیژ</span> <span class="highlight">85 تومان</span></li>
+            <li><span>اسپری یارا / سارا / ماهر</span> <span class="highlight">285 تومان</span></li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="footer">
+    ✔ قیمت‌ها بروز هستند<br>
+    ✔ ارسال با پیک و پست<br>
+    ✔ امکان خرید حضوری<br><br>
+    برای سفارش پیام دهید 💌
+</div>
+
+</body>
+</html>
